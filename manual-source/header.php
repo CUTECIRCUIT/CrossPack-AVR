@@ -2,7 +2,7 @@
 	global $prefix, $version, $pkgname, $pkgUnixName;
 	$prefix = $_SERVER['argv'][1];
 	$pkgname = $_SERVER['argv'][2];
-	eregi('/([ a-zA-Z-]+)-([0-9.]+)$', $prefix, $regs);
+	// eregi('/([ a-zA-Z-]+)-([0-9.]+)$', $prefix, $regs);
 	$pkgUnixName = $regs[1];
 	$version = $regs[2];
 ?>
